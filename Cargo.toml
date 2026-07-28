@@ -1,8 +1,8 @@
 [package]
-name = "bc_pack_signals_ready"
+name = "bc_pack_signals"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-bc_signals = {path = "../bc_constructor/crates/bc_signals"}
-bc_utils_lg = {path = "../bc_constructor/crates/bc_utils_lg"}
+bc_utils_lg = {git = "https://github.com/rXZD5cFumBJnx56wcclz/bc_utils_lg.git", branch = "main"}
+bc_signals = {git = "https://github.com/rXZD5cFumBJnx56wcclz/bc_signals.git", branch = "main"}
